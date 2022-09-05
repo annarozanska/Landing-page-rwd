@@ -754,9 +754,9 @@ body {
 		flex-direction: row;
 		align-items: center;
 	}
-
-	.footer-headline-text p {
-		text-align: left;
+	
+	.footer-headline-text h3, p {
+   	 	text-align: left;
 	}
 
 	.footer-btn {
