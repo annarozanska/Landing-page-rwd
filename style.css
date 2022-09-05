@@ -755,7 +755,7 @@ body {
 		align-items: center;
 	}
 	
-	.footer-headline-text h3, p {
+	.footer-headline-text {
    	 	text-align: left;
 	}
 
