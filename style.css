@@ -855,7 +855,7 @@ body {
 		font-size: 8rem;
 	}
 
-	.headline-text .text {
+	.headline-text p {
 		width: 380px;
 		flex-wrap: nowrap;
 		text-align: left;
