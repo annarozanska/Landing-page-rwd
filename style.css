@@ -81,7 +81,14 @@ body {
 	display: inline-block;
 	margin-right: 20px;
 	font-size: 1.6rem;
-	color: var(--blue);
+}
+
+.list-item a{
+    color: var(--blue);
+}
+
+.list-item:nth-child(even) a {
+    cursor: not-allowed;
 }
 
 .active {
