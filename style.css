@@ -187,7 +187,7 @@ body {
 	display: none;
 	width: 94%;
 	height: 504px;
-	background: url(/img/img2.png) center/cover;
+	background: url(img/img2.png) center/cover;
 }
 
 .about-us-wrapper {
@@ -251,19 +251,19 @@ body {
 }
 
 .one-item {
-	background: url(/svg/obraz1.svg) no-repeat center/95%;
+	background: url(svg/obraz1.svg) no-repeat center/95%;
 }
 
 .two-item {
-	background: url(/svg/obraz2.svg) no-repeat center/95%;
+	background: url(svg/obraz2.svg) no-repeat center/95%;
 }
 
 .three-item {
-	background: url(/svg/obraz3.svg) no-repeat center/95%;
+	background: url(svg/obraz3.svg) no-repeat center/95%;
 }
 
 .four-item {
-	background: url(/svg/obraz4.svg) no-repeat center/95%;
+	background: url(svg/obraz4.svg) no-repeat center/95%;
 }
 
 .features-box {
@@ -283,19 +283,19 @@ body {
 }
 
 .one-box {
-	background: url(/img/img3.png) no-repeat center/80%;
+	background: url(img/img3.png) no-repeat center/80%;
 }
 
 .two-box {
-	background: url(/img/img4.png) no-repeat center/80%;
+	background: url(img/img4.png) no-repeat center/80%;
 }
 
 .three-box {
-	background: url(/img/img5.png) no-repeat center/80%;
+	background: url(img/img5.png) no-repeat center/80%;
 }
 
 .four-box {
-	background: url(/img/img6.png) no-repeat center/80%;
+	background: url(img/img6.png) no-repeat center/80%;
 }
 
 .features-box-content {
@@ -471,15 +471,15 @@ body {
 }
 
 #slides-1 .testimonials-box-img {
-	background: url(/img/osoba1.jpg) center/cover;
+	background: url(img/osoba1.jpg) center/cover;
 }
 
 #slides-2 .testimonials-box-img {
-	background: url(/img/osoba2.jpg) center/cover;
+	background: url(img/osoba2.jpg) center/cover;
 }
 
 #slides-3 .testimonials-box-img {
-	background: url(/img/osoba3.jpg) center/cover;
+	background: url(img/osoba3.jpg) center/cover;
 }
 
 .break {
@@ -711,7 +711,7 @@ body {
 		display: flex;
 		width: 250px;
 		height: 350px;
-		background: url(/img/img2.png) no-repeat center/90%;
+		background: url(img/img2.png) no-repeat center/90%;
 	}
 
 	.about-us-wrapper {
