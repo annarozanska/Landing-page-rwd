@@ -220,11 +220,10 @@ body {
 .features {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	flex-wrap: wrap;
+	justify-content: center;
 	height: 95%;
 	margin-top: 50px;
-	padding: 0.25rem;
 }
 
 .features-headline {
@@ -258,19 +257,19 @@ body {
 }
 
 .one-item {
-	background: url(svg/obraz1.svg) no-repeat center/95%;
+	background: url(svg/obraz1.svg) no-repeat center/150vw;
 }
 
 .two-item {
-	background: url(svg/obraz2.svg) no-repeat center/95%;
+	background: url(svg/obraz2.svg) no-repeat center/150vw;
 }
 
 .three-item {
-	background: url(svg/obraz3.svg) no-repeat center/95%;
+	background: url(svg/obraz3.svg) no-repeat center/150vw;
 }
 
 .four-item {
-	background: url(svg/obraz4.svg) no-repeat center/95%;
+	background: url(svg/obraz4.svg) no-repeat center/150vw;
 }
 
 .features-box {
@@ -290,19 +289,23 @@ body {
 }
 
 .one-box {
-	background: url(img/img3.png) no-repeat center/80%;
+	background: url(img/img3.png) no-repeat;
+	background-size: 80%;
 }
 
 .two-box {
-	background: url(img/img4.png) no-repeat center/80%;
+	background: url(img/img4.png) no-repeat;
+	background-size: 80%;
 }
 
 .three-box {
-	background: url(img/img5.png) no-repeat center/80%;
+	background: url(img/img5.png) no-repeat;
+	background-size: 80%;
 }
 
 .four-box {
-	background: url(img/img6.png) no-repeat center/80%;
+	background: url(img/img6.png) no-repeat;
+	background-size: 80%;
 }
 
 .features-box-content {
@@ -650,6 +653,7 @@ body {
 	opacity: 100%;
 }
 
+
 @media screen and (min-width: 360px) {
 	.headline {
 		max-width: 400px;
@@ -660,7 +664,7 @@ body {
 	.one-item,
 	.two-item,
 	.four-item {
-		background-size: 80%;
+		background-size: 85vw;
 	}
 }
 
@@ -673,8 +677,8 @@ body {
 	.one-item,
 	.two-item,
 	.four-item {
-		background-position: center;
-		background-size: 65%;
+		background-position: right;
+		background-size: 65vw;
 	}
 
 	.features-box-content {
@@ -690,6 +694,7 @@ body {
 	.one-item,
 	.two-item,
 	.four-item {
+		background-position: center;
 		background-size: 55%;
 	}
 }
@@ -730,7 +735,7 @@ body {
 	.one-item,
 	.two-item,
 	.four-item {
-		background-size: 45%;
+		background-size: 50%;
 	}
 
 	.features-box-img {
@@ -823,6 +828,16 @@ body {
 	}
 }
 
+@media screen and (min-width: 912px) {
+	.three-item,
+	.one-item,
+	.two-item,
+	.four-item {
+		background-position: center;
+		background-size: 45%;
+	}
+}
+
 @media screen and (min-width: 1024px) {
         .header {
                position: relative;
@@ -842,10 +857,10 @@ body {
 	}
 
 	.headline {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
 		display: flex;
 		align-items: center;
 		justify-content: flex-start;
@@ -961,6 +976,10 @@ body {
 		width: 400px;
 		height: 250px;
 		padding: 20px 20px 20px 200px;
+	}
+
+	.one-box, .two-box, .three-box, .four-box {
+		background-position: center;
 	}
 
 	.features-headline-item:hover {
